@@ -160,8 +160,7 @@ namespace leatherman { namespace ruby {
             // ruby_options is a required call as it sets up some important stuff (unfortunately)
             char const* opts[] = {
                 "ruby",
-                "-e",
-                ""
+                "-e ",
             };
 
             // Check for bundler; this is the only ruby option we support
